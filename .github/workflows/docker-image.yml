@@ -14,6 +14,7 @@ jobs:
     strategy:
       matrix:
         ALPINE_VERS:
+        - 3.21
         - 3.20
         - 3.19
         - 3.18
