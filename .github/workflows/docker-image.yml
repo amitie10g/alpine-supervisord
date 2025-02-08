@@ -14,16 +14,16 @@ jobs:
     strategy:
       matrix:
         ALPINE_VERS:
-        - 3.21
-        - 3.20
-        - 3.19
-        - 3.18
-        - 3.17
-        - 3.16
-        - 3.15
-        - 3.14
-        - 3.13
-        - edge
+        - '3.21'
+        - '3.20'
+        - '3.19'
+        - '3.18'
+        - '3.17'
+        - '3.16'
+        - '3.15'
+        - '3.14'
+        - '3.13'
+        - 'edge'
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
