@@ -58,7 +58,7 @@ jobs:
         push: true
         context: .
         build-args: |
-          VERSION${{ matrix.ALPINE_VERS }}
+          VERSION=${{ matrix.ALPINE_VERS }}
         platforms: linux/amd64,linux/386,linux/arm64,linux/arm/v7,linux/arm/v6,linux/ppc64le,linux/s390x
         tags: ${{ steps.meta.outputs.tags }}
         labels: ${{ steps.meta.outputs.labels }}
